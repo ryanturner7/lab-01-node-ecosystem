@@ -15,6 +15,6 @@ describe('testing greet', () => {
     it('should return null', () => {
       let result = greet(6);
       expect(result).toEqual(null);
-    })
-  })
-})
+    });
+  });
+});
