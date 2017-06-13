@@ -10,8 +10,7 @@ arithmetic.add = (a, b) => {
   }
 };
 arithmetic.subtract = (a, b) => {
-  if
-  (typeof a === 'number' && typeof b === 'number'){
+  if(typeof a === 'number' && typeof b === 'number'){
     return a - b;
   } else{
     return null;

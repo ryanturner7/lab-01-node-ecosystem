@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = function(name){
-  if(name === '') {
+  if(typeof name === 'string') {
     return 'Hello, ' + name;
   } else {
     return null;
